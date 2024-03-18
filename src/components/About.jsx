@@ -1,10 +1,10 @@
 const About = ({title, body}) => {
     return (
-        <aside>
+        <section id="about" className="card-container">
             <h2>{title}</h2>
-            <div className="about-image-placeholder"></div>
+            <div className="image-placeholder"></div>
             <p>{body}</p>
-        </aside>
+        </section>
     )
 }
 
