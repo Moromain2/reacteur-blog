@@ -1,0 +1,38 @@
+{"blog_data": [
+    {
+        "header": {
+            "site_title": "My Blog",
+            "baseline": "An awesome baseline"
+        },
+        "navlinks": [
+            {
+                    "primary_links": [
+                    {"label": "link 1", "url": "google.com"},
+                    {"label": "link 2", "url": "google.com"},
+                    {"label": "link 3", "url": "google.com"}
+                ]
+            },
+            {
+                "secondary_links": [
+                    {"label": "link 4", "url": "youtube.com"}
+                ]
+            }
+        ],
+        "posts": [
+            {
+                "title": "Title heading 1",
+                "subtitle": "Title description 1",
+                "body": "Mauris consectetur tincidunt magna. Donec nec ipsum sem. Donec lacus nunc, pretium et erat vel, accumsan ullamcorper ipsum. Mauris non lobortis justo. Vivamus scelerisque, augue id aliquam aliquet, augue erat venenatis nulla, at ultrices nulla lectus id libero. Suspendisse sed elementum erat, quis porttitor tortor. In a congue neque."
+            },
+            {
+                "title": "Title heading 2",
+                "subtitle": "Title description 2",
+                "body": "Mauris consectetur tincidunt magna. Donec nec ipsum sem. Donec lacus nunc, pretium et erat vel, accumsan ullamcorper ipsum. Mauris non lobortis justo. Vivamus scelerisque, augue id aliquam aliquet, augue erat venenatis nulla, at ultrices nulla lectus id libero. Suspendisse sed elementum erat, quis porttitor tortor. In a congue neque."
+            }
+        ],
+        "about": {
+            "title": "About me",
+            "body": "Cras interdum pharetra felis eu faucibus."
+        }
+    }
+]}
