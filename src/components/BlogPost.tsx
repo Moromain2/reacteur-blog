@@ -1,6 +1,6 @@
 interface post_props {
     title: string;
-    subtitle: string;
+    subtitle?: string;
     body: string;
 }
 

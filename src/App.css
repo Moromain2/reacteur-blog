@@ -64,7 +64,6 @@ nav .container {
 }
 nav ul {
   display: flex;
-  /* gap: 20px; */
 }
 nav ul li a {
   display: block;
