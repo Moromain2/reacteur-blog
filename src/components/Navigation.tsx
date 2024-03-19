@@ -1,6 +1,17 @@
 import Link from "./Link";
 
-const Navigation = ({primary_links, secondary_links}) => {
+interface navigation_props {
+    primary_links: {
+        label: string;
+        url: string;
+    }[];
+    secondary_links: {
+        label: string;
+        url: string;
+    }[];
+}
+
+const Navigation = ({primary_links, secondary_links}: navigation_props) => {
     return (
         <nav>
             <div className="container">

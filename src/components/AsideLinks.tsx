@@ -1,6 +1,13 @@
 import Link from "./Link";
 
-const UsefulLinks = ({links_array}) => {
+interface links_props {
+    links_array: {
+        label: string;
+        url: string;
+    }[];
+}
+
+const UsefulLinks = ({links_array}: links_props) => {
     return (
         <div className="card-container useful-links">
             <h2>Useful Links</h2>

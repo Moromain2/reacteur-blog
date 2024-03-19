@@ -1,4 +1,10 @@
-const BlogPost = ({title, subtitle, body}) => {
+interface post_props {
+    title: string;
+    subtitle: string;
+    body: string;
+}
+
+const BlogPost = ({title, subtitle, body}: post_props) => {
     return (
         <article className="card-container post-container">
             <h2>{title}</h2>
